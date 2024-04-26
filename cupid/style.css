@@ -1,3 +1,9 @@
+.flexcontainer {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
 h1 {
     font-family: 'Audiowide';
     text-align: center;
@@ -17,17 +23,69 @@ h3 {
 .centered {
     text-align: center;
     font-family: 'Play';
+    font-style: italic;
+
 }
 
 hr {
     size: 13px;
-    text-align: center;
+}
+
+.firsttitle {
+    width: 50%
+}
+
+.secondtitle {
+    width: 40%
+}
+
+.choosestartend {
+    height: 1px;
+    width: 20%
+}
+
+.topicstartend {
+    height: 1px;
+    width: 10%
+}
+
+.smallspace {
+    margin: 40px;
+}
+
+.linespace {
+    margin: 20px;
+}
+
+.bigspace {
+    margin: 100px;
 }
 
 .firststartend {
-    width: 75%;
+    width: 80%;
 }
 
 .secondstartend {
-    width: 50%;
+    width: 70%;
+}
+
+img {
+    text-align: center;
+}
+
+.logo {
+    align-self: center;
+}
+
+.rights {
+    text-align: left;
+    font-family: 'Play';
+    font-style: italic;
+    font-size: 75%;
+}
+
+span {
+    padding: 3px;
+    border-radius: 5px;
+    background-color: rgb(226, 223, 223);
 }
