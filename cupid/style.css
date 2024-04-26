@@ -18,3 +18,16 @@ h3 {
     text-align: center;
     font-family: 'Play';
 }
+
+hr {
+    size: 13px;
+    text-align: center;
+}
+
+.firststartend {
+    width: 75%;
+}
+
+.secondstartend {
+    width: 50%;
+}
